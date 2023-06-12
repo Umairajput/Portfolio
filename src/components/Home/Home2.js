@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Angular.js and Next.js</b>
+                <b className="purple"> Angular.js</b>
               </i>
             </p>
           </Col>
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/profile.php?id=100050903752512"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/umair_rajput977/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

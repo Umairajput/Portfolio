@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import musicApp from "../../Assets/Projects/music_app.jpeg";
 import emotion from "../../Assets/Projects/instagram.jpeg";
 import drag_and_drop_todo_app from "../../Assets/Projects/drag_and_drop_todo_app.jpeg";
-import eCommerce from "../../Assets/Projects/e-commerce.jpeg";
+import ulsStore from "../../Assets/Projects/uls-store.jpeg";
 import quizApp from "../../Assets/Projects/quiz_app.jpeg";
-import calculator from "../../Assets/Projects/calculator.jpeg";
+import adminPannel from "../../Assets/Projects/admin-pannel.jpeg";
 
 function Projects() {
   return (
@@ -23,32 +23,32 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eCommerce}
+              imgPath={ulsStore}
               isBlog={false}
-              title="E-Commerce-Website"
-              description="I have created this e-commerce website which is fully responsive and I have also added a database to it."
-              ghLink="https://github.com/Umairajput/e-commerce-website"
-              demoLink="https://e-commerce-webbsite.netlify.app/"
+              title="ULS STORE"
+              description="This is a ULS store, and I have also worked on it."
+              ghLink="https://github.com/Neptunes-tech/wbmstore-webapp"
+              demoLink="https://winbig-money.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={calculator}
+              imgPath={adminPannel}
               isBlog={false}
-              title="Calculator"
-              description="I have created this calculator which is fully responsive and quite stylish."
-              ghLink="https://github.com/Umairajput/calculator"
-              demoLink="https://calculator-task-000.netlify.app/"
+              title="ULS Admin Pannel"
+              description="This is admin pannel, recently i'm working on this project its Login email or password is : manager@gmail.com ,manager"
+              ghLink="https://github.com/Neptunes-tech/wbm-admin-backend"
+              demoLink="https://wbm-dashboard.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={drag_and_drop_todo_app}
               isBlog={false}
-              title="Drag And Drop Todo App"
+              title="Video Match"
               description="I made this todo app which is fully functional and drag and drop."
               ghLink="https://github.com/Umairajput/Drag-And-Drop-Todo-App"
-              demoLink="https://drag-and-drop-todo-app.netlify.app/"              
+              demoLink="https://tal.videomatch.io/"              
             />
           </Col>
           <Col md={4} className="project-card">

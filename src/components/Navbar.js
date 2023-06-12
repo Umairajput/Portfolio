@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <span className="ur">UR.</span>
+          <span className="ur">UM.</span>
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle

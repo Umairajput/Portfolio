@@ -18,7 +18,7 @@ function Footer() {
           <h3>Designed and Developed by Umair Rajput</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} UR</h3>
+          <h3>Copyright © {year} UM</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/profile.php?id=100050903752512"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -54,7 +54,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/umair_rajput977/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
