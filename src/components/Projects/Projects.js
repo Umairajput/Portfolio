@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import musicApp from "../../Assets/Projects/music_app.jpeg";
+import blockconsult from "../../Assets/Projects/blockconsult.jpeg";
 import emotion from "../../Assets/Projects/instagram.jpeg";
-import drag_and_drop_todo_app from "../../Assets/Projects/drag_and_drop_todo_app.jpeg";
+import videoMatch from "../../Assets/Projects/videomatch.jpeg";
 import ulsStore from "../../Assets/Projects/uls-store.jpeg";
 import quizApp from "../../Assets/Projects/quiz_app.jpeg";
 import adminPannel from "../../Assets/Projects/admin-pannel.jpeg";
@@ -43,22 +43,22 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={drag_and_drop_todo_app}
+              imgPath={videoMatch}
               isBlog={false}
               title="Video Match"
-              description="I made this todo app which is fully functional and drag and drop."
-              ghLink="https://github.com/Umairajput/Drag-And-Drop-Todo-App"
+              description="I have developed the UI for this video match and have also implemented some of its functionalities.its Login email or password is : videomatch@gmail.com ,videomatch$"
+              ghLink=""
               demoLink="https://tal.videomatch.io/"              
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={musicApp}
+              imgPath={blockconsult}
               isBlog={false}
-              title="Music App"
-              description="I have created this music app that is both visually appealing and responsive."
-              ghLink="https://github.com/Umairajput/Music-App"
-              demoLink="https://music-webb.netlify.app/"
+              title="Block Consult"
+              description="This is a Block consult website, and I have also worked on it."
+              ghLink="https://github.com/Neptunes-tech/blockconsult.git"
+              demoLink="https://blockconsult.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
